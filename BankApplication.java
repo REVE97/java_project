@@ -8,7 +8,7 @@ public class BankApplication {
 		
 		String[] Account = new String[100];
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); 
 		Account account = new Account();
 		
 		System.out.println("------------------------------------------");
@@ -21,11 +21,11 @@ public class BankApplication {
 		if(select=="1")
 		{
 			System.out.print("계좌번호: ");
-			String accountNumber = scanner.nextLine();
+			account.accountNumber= scanner.nextLine();
 			System.out.print("계좌주: ");
-			String name = scanner.nextLine();
+			account.name= scanner.nextLine();
 			System.out.print("계좌주: ");
-			String money = scanner.nextLine();
+			// account.money = scanner.nextLine(); // 수정 필요
 		}
 		
 		
