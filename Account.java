@@ -1,17 +1,48 @@
-package org.swstudy.java;
+package class04;
 
 public class Account {
-
-	String accountNumber;
-	String name;
-	int money;
 	
-	void save(String accountNumber,String name,int money)
+	private String accountNo;
+	private String name;
+	private int balance;
+	
+	public Account(String accountNo, String name, int balance) {
+		super();
+		this.accountNo = accountNo;
+		this.name = name;
+		this.balance = balance;
+	}
+
+	public String getAccountNo() {
+		return accountNo;
+	}
+
+	public void setAccountNo(String accountNo) {
+		this.accountNo = accountNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getBalance() {
+		return balance;
+	}
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	
+	@Override
+	public String toString()
 	{
-		this.accountNumber=accountNumber;
-		this.name=name;
-		this.money=money;
+		return "("+accountNo+ " " + name +" "+balance+")";
 	}
 	
 	
+
 }

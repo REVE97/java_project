@@ -1,11 +1,12 @@
-package org.swstudy.java;
+/*
+package class04;
 
 import java.util.Scanner;
 
 public class BankApplication {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
 		String[] Account = new String[100];
 		
 		Scanner scanner = new Scanner(System.in); 
@@ -25,11 +26,10 @@ public class BankApplication {
 			System.out.print("계좌주: ");
 			account.name= scanner.nextLine();
 			System.out.print("계좌주: ");
-			// account.money = scanner.nextLine(); // 수정 필요
+			
 		}
-		
-		
-		
+
 	}
 
 }
+*/
